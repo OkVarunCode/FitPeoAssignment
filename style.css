@@ -1,0 +1,242 @@
+
+
+* {
+    background-color: #2f1893;
+    font-family: 'Gabarito', sans-serif;
+}
+
+
+
+#startup {
+    display: flex;
+    padding: 4% 14%;
+    align-items: center;
+}
+p {
+    color: white;
+    font-size: 22px;
+}
+
+#heading {
+    color: white;
+    font-size: 60px;
+}
+
+#signup {
+    text-align: center;
+    color: rgb(2, 2, 83);
+    background-color: white;
+    font-size: 42px;
+
+
+}
+h3 {
+    color: white;
+    display: inline;
+    font-size: 24px;
+    
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    display: inline;
+    padding: 1% 2%;
+
+
+}
+.pink-button {
+    background-color: #e93a7d;
+    border-radius: 20px;
+}
+
+.learn-more .pink-button {
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.learn-more {
+    margin: 40px 0;
+    padding-left: 0;
+}
+
+h1 {
+    color: white;
+}
+
+#mail, #password {
+    border-radius: 20px;
+    border-color: rgb(156, 148, 148);
+    width: 230px;
+    padding: 12px;
+}
+
+#mail {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#checkbox {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.container {
+    display: flex;
+    border-radius: 10px;
+}
+
+.leftside {
+    flex: 1;
+    padding: 0 2% 0 13.5%;
+
+
+}
+
+.input {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.rightside {
+    flex: 1;
+    background-color: white;
+    margin-right: 10%;
+    margin: 0 15%;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+}
+
+#password {
+    display: flex;
+    background-color: white;
+}
+
+#signin {
+    
+    font-family: 'Gabarito', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+}
+
+#mails {
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 150px;
+    background-color: white;
+}
+
+#passs {
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 150px;
+    background-color: white;
+}
+
+#submits {
+    width: 150px;
+    margin-left: 0px;
+    background-color: white;
+}
+
+
+#sign {
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 260px;
+    padding: 12px; 
+    background-color: #482be7;
+}
+
+#terms{
+    background-color: white;
+    color:rgb(156, 148, 148);
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+
+/*form styling*/
+.checkbox{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#or {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Gabarito', sans-serif;
+    color: rgb(156, 148, 148);
+    background-color: white;
+    font-size: 13px;
+
+}
+.or-divider {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 20px 10px 20px 0px;
+    margin-left: 14.5%;
+  }
+
+.or-divider::before, 
+.or-divider::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.or-divider::before {
+    height: 2px;
+}
+
+#login {
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 260px;
+    padding: 12px;
+    background-color: rgb(0, 185, 241);
+}
+.login-twitter{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#do-you {
+    color: rgb(156, 148, 148);
+    background-color: white;
+}
+
+#signinn {
+    color: rgb(25, 228, 228);
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: white;
+    padding: 0;
+}
+
+.acc {
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    justify-content: center;
+}
